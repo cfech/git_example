@@ -1,16 +1,16 @@
 public class Main {
     public static void main(String[] args) {
 
-        Labrador lucky = new Labrador("Lucky", "Labrador Retriever", 3, "Yellow");
-        Poodle buddy = new Poodle("Buddy", "Standard Poodle", 2, "White");
+        Labrador labrador = new Labrador("Buddy", "Labrador Retriever", 3, "Yellow");
+        Poodle lucky = new Poodle("Lucky", "Standard Poodle", 2, "White");
+
+        labrador.speak();
+        labrador.eat("kibble");
+        System.out.println(labrador.info());
 
         lucky.speak();
-        lucky.eat("kibble");
+        lucky.eat("treats");
         System.out.println(lucky.info());
-
-        buddy.speak();
-        buddy.eat("treats");
-        System.out.println(buddy.info());
     }
 }
 
