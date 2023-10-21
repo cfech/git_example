@@ -1,13 +1,13 @@
 abstract class Dog {
     private String name;
     private String breed;
-    private int age;
+    private int courage;
     private String color;
 
     public Dog(String name, String breed, int age, String color) {
         this.name = name;
         this.breed = breed;
-        this.age = age;
+        this.courage = age;
         this.color = color;
     }
 
@@ -20,7 +20,7 @@ abstract class Dog {
     }
 
     public String info() {
-        return name + " is a " + age + "-year-old " + color + " " + breed + ".";
+        return name + " is a " + courage + "-year-old " + color + " " + breed + ".";
     }
 
 }
