@@ -4,6 +4,7 @@ abstract class Dog {
     private int age;
     private String color;
 
+    // some change
     public Dog(String name, String breed, int age, String color) {
         this.name = name;
         this.breed = breed;
